@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container_nav{
+    background: #181818;
+    height: 15vh;
+    border-bottom: 3.5px solid #cd0909;
+
+
+}
+.logo-image {
+    width: 80px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.itens {
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 140px;
+
+}
+
+.itens li {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.itens li:hover {
+    color: #cd0909;
+}
+

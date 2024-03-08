@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.game-sections {
+    padding-top: 50px;
+    background: #2C2C2C;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.game-sections .title {
+    width: 100%;
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.games {
+    margin-top: 2%;
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    margin: 1%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+.card-text h3 {
+    color: #fff;
+    padding-top: 5px;
+}
+
+.card-text p {
+    color: #fff;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    background:#cd0909;
+    border-color: #cd0909;
+
+}
+ 
+.card img {
+    width: 100%;
+    
+}
+
+.title, .card, .card-text {
+    visibility: hidden;
+
+}
+
+
+
+
+
+
+
+
+
