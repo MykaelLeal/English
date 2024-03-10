@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 .section-about {
@@ -20,5 +23,12 @@
     color:  #cd0909;
     font-weight: bold;
     display: inline-block;
+}
+
+.about-text {
+    margin-top: 50px;
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 50%;
 }
 

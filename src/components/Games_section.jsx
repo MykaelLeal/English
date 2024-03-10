@@ -3,6 +3,7 @@ import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal';
 
 import img1 from '../assets/slide-1.jpeg';
+import img2 from '../assets/breve.png';
 
 import '../styles/game_section.css';
 
@@ -33,8 +34,11 @@ const Games_section = () => {
             </div>
                     
                 <div className="card">
+                    <img src={img2} className="breve" alt="jogo em breve"/>
                 </div>
-                <div className="card"></div>
+                <div className="card">
+                    <img src={img2} className="breve" alt="jogo em breve"/>
+                </div>
     
             </div>
 
